@@ -1,0 +1,39 @@
+{
+  "name" : "__MSG_extName__",
+  "version" : "1.0",
+  "description" : "__MSG_extDescription__",
+  "default_locale" : "ru",
+  "icons" : {
+    "128" : "pic/icon128.png",
+    "48" : "pic/icon48.png",
+    "16" : "pic/icon16.png"
+  },
+  "manifest_version" : 2,
+    "content_security_policy" : "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+  "browser_action" : {
+    "default_icon": "pic/icon48.png",
+    "default_title": "__MSG_extName__"
+  },
+  "background": {
+        "scripts": [
+            "counter.js",
+            "background.js"
+        ]
+    },
+    "minimum_chrome_version" : "33",
+    "permissions": [
+        "alarms",
+        "background",
+        "notifications",
+        "storage",
+        "tabs",
+        "unlimitedStorage",
+        "*://*.userapi.com/*",
+        "*://*.vk.me/*",
+        "*://*.vk.com/*"
+    ],
+    "content_scripts" : [{
+    "matches" : ["*://*.vk.com/*"],
+    "js" : ["contentscript.js"]
+  }]
+}
