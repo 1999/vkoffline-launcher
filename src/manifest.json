@@ -1,7 +1,8 @@
 {
   "name" : "__MSG_extName__",
-  "version" : "1.0",
+  "version" : "1.1",
   "description" : "__MSG_extDescription__",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvQiHVpfhJirFosl5D+ERWXcVRFM0NCJ6Cyfk9K2nNIyhIFOUTcN/N0fn/zZFUOVvlCX589sraEtrB1HoK+xtWgHOVsWAFrSlOy0Fd0cF9v9QVvyLy9mgdE/dUZT/ChTMw2W4XeXBXL6LSjVYxCBVhCkOw5GXEeQzuHMBM4axAsoRsgqw1m2K5lcs6KmLx+FxM/hrBU1LEZOdQ301daNVeYUvIpAAYLEcFx4beJKU2X9bOawH9JMSCiZGFiQxKMP38KTqKpZbGoWBmcpT3l/sLYxol92d1p5OYfF1kczp9ZRAyQJywb+qcndeBpjDNmGd64Nf9vFU3w2UjgJaCYi/CQIDAQAB",
   "default_locale" : "ru",
   "icons" : {
     "128" : "pic/icon128.png",
